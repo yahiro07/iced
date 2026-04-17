@@ -18,7 +18,6 @@ const EditorArea = () => {
         viewBox="-200 -200 400 400"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <title>edit-area</title>
         <g stroke="#ccc">
           {seqNumbers(10).map((xi) => {
             const x = xi * 40 - 200;
